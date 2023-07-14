@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    image: claretyoung/sample-app:1.0
+    ports:
+      - 3000:3000
+    restart: on-failure:3
+
